@@ -1,8 +1,14 @@
+exports.up = function(knex, Promise) {
+    return knex.schema.createTable('dishes', function(tbl) {
+        table.increments();
 
-exports.up = function(knex) {
-  
+        table
+          .string('name', 128)
+          .notNullable()
+          .unique();
+      });
 };
 
-exports.down = function(knex) {
-  
+exports.down = function(knex, Promise) {
+    return knex.schema.dropTableIfExists('dishes');
 };
