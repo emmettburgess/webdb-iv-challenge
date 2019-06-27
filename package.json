@@ -1,0 +1,26 @@
+{
+  "name": "webdb-iv-challenge",
+  "version": "1.0.0",
+  "description": "- database modeling.\r - migration scripts.\r - seeding.\r - knex.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmettburgess/webdb-iv-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmettburgess/webdb-iv-challenge/issues"
+  },
+  "homepage": "https://github.com/emmettburgess/webdb-iv-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "knex": "^0.18.0"
+  }
+}
